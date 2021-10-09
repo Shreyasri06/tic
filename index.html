@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* background-color: #2196F3; */
+    padding: 484px;
+  }
+  .grid1, .grid2, .grid3, .grid4, .grid5, .grid6, .grid7, .grid8, .grid9{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    /* font-size: 30px; */
+    text-align: center;
+  }
+  </style>
+  </head>
+  <body>
+  
+  
+  <div class="grid-container">
+    <div class="grid1" id="box1" onclick="fill(this)"></div>
+    <div class="grid2" id="box2" onclick="fill(this)"></div>
+    <div class="grid3" id="box3" onclick="fill(this)"></div>  
+    <div class="grid4" id="box4" onclick="fill(this)"></div>
+    <div class="grid5" id="box5" onclick="fill(this)"></div>
+    <div class="grid6" id="box6" onclick="fill(this)"></div>  
+    <div class="grid7" id="box7" onclick="fill(this)"></div>
+    <div class="grid8" id="box8" onclick="fill(this)"></div>
+    <div class="grid9" id="box9" onclick="fill(this)"></div>  
+  </div>
+  
+  <script src="jquery-3.6.0.min.js"></script>
+  <script>
+        
+        $(".grid1").click(function(){
+    $("#box1").css("background-color", 'red');
+    
+})
+
+$(".grid1").dblclick(function(){
+    $("#box1").css("background-color", 'yellow');
+})
+
+//for box 2
+
+$(".grid2").click(function(){
+    $("#box2").css("background-color", 'red');
+    
+})
+
+$(".grid2").dblclick(function(){
+    $("#box2").css("background-color", 'yellow');
+})
+
+//   for box 3
+$(".grid3").click(function(){
+    $("#box3").css("background-color", 'red');
+    
+})
+
+$(".grid3").dblclick(function(){
+    $("#box3").css("background-color", 'yellow');
+})
+
+//   for box 4
+$(".grid4").click(function(){
+    $("#box4").css("background-color", 'red');
+    
+})
+
+$(".grid4").dblclick(function(){
+    $("#box4").css("background-color", 'yellow');
+})
+
+
+//   for box 5
+$(".grid5").click(function(){
+    $("#box5").css("background-color", 'red');
+    
+})
+
+$(".grid5").dblclick(function(){
+    $("#box5").css("background-color", 'yellow');
+})
+
+//   for box 6
+$(".grid6").click(function(){
+    $("#box6").css("background-color", 'red');
+    
+})
+
+$(".grid6").dblclick(function(){
+    $("#box6").css("background-color", 'yellow');
+})
+
+//   for grid 7
+$(".grid7").click(function(){
+    $("#box7").css("background-color", 'red');
+    
+})
+
+$(".grid7").dblclick(function(){
+    $("#box7").css("background-color", 'yellow');
+})
+
+//   for grid 8
+$(".grid8").click(function(){
+    $("#box8").css("background-color", 'red');
+    
+})
+
+$(".grid8").dblclick(function(){
+    $("#box8").css("background-color", 'yellow');
+})
+
+//   for grid 9
+$(".grid9").click(function(){
+    $("#box9").css("background-color", 'red');
+    
+})
+
+$(".grid9").dblclick(function(){
+    $("#box9").css("background-color", 'yellow');
+})
+
+  </script>
+  </body>
+  </html>
